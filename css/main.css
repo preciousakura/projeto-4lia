@@ -1,11 +1,13 @@
 body{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .menu{
     width: 100%;
     height: 200px;
+    background-color: #ffffff;
 }
 
 main {
@@ -15,5 +17,27 @@ main {
 }
 
 .logo{
-    padding: 15px;
+    padding: 5px;
+    width: 10%;
+    float: left;
+}
+
+.opcoes-menu ul li {
+    margin-left: 120px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.opcoes-menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.opcoes-menu {
+    padding: 17px;
+    width: 85%;
+    float: right;
 }
