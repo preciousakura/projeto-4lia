@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,700;1,700&family=Roboto:wght@400;700&display=swap');
+
 body{
     width: 100%;
     height: 100%;
@@ -5,39 +7,104 @@ body{
 }
 
 .menu{
-    width: 100%;
-    height: 200px;
-    background-color: #ffffff;
-}
-
-main {
-    margin: 0 auto;
-    width: 1284px;
-    position: relative;
+    background-color: white;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: -1px 1px 8px 3px rgba(140,140,140,0.34); 
+    box-shadow: -1px 1px 8px 3px rgba(140,140,140,0.34);
 }
 
 .logo{
-    padding: 5px;
     width: 10%;
-    float: left;
+    cursor: pointer;
+}
+
+.opcoes-menu ul {
+    display: flex;
+    justify-content: end;
 }
 
 .opcoes-menu ul li {
-    margin-left: 120px;
-    display: inline-block;
-    float: left;
     list-style: none;
+    margin-left: 50px;
 }
 
 .opcoes-menu ul li a {
-    color: black;
+    color: #735D78;
     text-decoration: none;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     text-transform: uppercase;
+    transition: 1s ease;
+}
+
+.opcoes-menu ul li a:hover {
+    color: #1a121b;
 }
 
 .opcoes-menu {
     padding: 17px;
     width: 85%;
-    float: right;
+    
+}
+
+.content-main {
+    height: 100%;
+    background: url(../img/Fundo\ rosa.png) no-repeat center bottom #fff;
+        background-position-y: bottom;
+        background-size: auto;
+    background-size: contain;
+    background-position-y: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 51px;
+    margin-bottom: 3rem;
+}
+
+.content-body .imagem {
+    width: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+}
+
+.content-body .imagem img {
+    width: 75%;
+}
+
+.content-body .texto {
+    margin-right: 20px;
+}
+
+.content-body .texto h1 {
+    color: #735D78;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-body .texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+b {
+    color: #1a121b;
+    font-weight: 700;
+}
+
+.footer {
+    background: #735D78;
+    padding: 30px;
+    color: #f7d1cd;
+    font-family: 'Roboto', sans-serif;
 }
