@@ -52,7 +52,6 @@ body{
 
 .content-main {
     height: 100%;
-    background: url(../img/Fundo\ rosa.png) no-repeat center bottom #fff;
         background-position-y: bottom;
         background-size: auto;
     background-size: contain;
@@ -63,12 +62,31 @@ body{
     justify-content: space-between;
 }
 
-.content-body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
+.content-body ul li:nth-child(odd){
+  background-color: #B392AC;
+  color: white;
+  
+}
+
+.content-body ul li:nth-child(even){
+  background-color: #fff;
+  color: #735D78;
+}
+
+.content-body ul{
+  margin: 0;
+  padding: 0;
+}
+
+.content-body ul li {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  height: 500px;
 }
 
 .content-body .imagem {
@@ -76,18 +94,13 @@ body{
     overflow: hidden;
     display: flex;
     justify-content:center;
+    height: 100%;
 }
-
-.content-body .imagem img {
-    width: 75%;
-}
-
 .content-body .texto {
     margin-right: 20px;
 }
 
 .content-body .texto h1 {
-    color: #735D78;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -99,11 +112,4 @@ body{
 b {
     color: #1a121b;
     font-weight: 700;
-}
-
-.footer {
-    background: #735D78;
-    padding: 30px;
-    color: #f7d1cd;
-    font-family: 'Roboto', sans-serif;
 }
