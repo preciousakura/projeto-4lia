@@ -103,6 +103,7 @@ body{
 }
 .content-body .texto {
     margin-right: 20px;
+    width: 30%;
 }
 
 .content-body .texto h1 {
