@@ -57,7 +57,7 @@ body{
         background-position-y: bottom;
         background-size: auto;
     background-size: contain;
-    background-position-y: 150px;
+    background-position-y: 60px;
     
     display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@ body{
 .content-body .texto h1 {
     color: #735D78;
     font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
 }
 
 .content-body .texto p {

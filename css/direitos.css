@@ -79,7 +79,7 @@ body{
   padding: 0;
 }
 
-.content-body ul li {
+.content-body  ul li {
   list-style: none;
   width: 100%;
   display: flex;
@@ -113,6 +113,7 @@ body{
 .content-body .texto p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
 
 b {

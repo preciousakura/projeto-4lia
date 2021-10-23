@@ -67,7 +67,7 @@ b {
 .linha {
   display: grid;
   justify-content: center;
-  grid-template-columns: 300px 500px;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 1rem;
   align-items: center;
@@ -98,10 +98,13 @@ form {
   width: 60%;
   padding: 0;
   margin: 0;
+      margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
+  padding: 4rem;
 }
 
 h1 {
